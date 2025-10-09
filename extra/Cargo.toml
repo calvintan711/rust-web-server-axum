@@ -13,7 +13,7 @@ lib_authorization = ["tokio", "casbin"]
 
 [dependencies]
 # email
-lettre = { version = "0.11.2", default-features = false, features = [
+lettre = { version = "0.11.19", default-features = false, features = [
     "builder",
     "hostname",
     "smtp-transport",
